@@ -22,7 +22,7 @@ export default class Application extends EventEmitter {
     
     const message = document.createElement("div");
     message.classList.add("message");
-    message.innerText = lurics[this.count];
+    message.innerText = lyrics[this.count];
     this.count++
     document.querySelector(".main").appendChild(message);
   }
